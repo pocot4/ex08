@@ -1,0 +1,28 @@
+ex08
+
+14/20
+
+-2
+part est utilisée uniquement dans la bibliothèque (library):
+couleur rouge
+import 'package:ex08/fonction.dart';
+part 'ex08var.dart';
+
+-1 GIVEN ASSOCIATION
+Sort the list of members of a GIVEN ASSOCIATION first by the last name, 
+THEN by the first name.
+-1 THEN
+
+-1
+sortByFName(var members) {
+-->
+sortByFName(List members) {
+
+MembershipstoString() {
+-->
+membershipstoString() {
+
+8.2
+-1
+il n'y a pas membre avec cet email
+asso1.removeMember('email');
